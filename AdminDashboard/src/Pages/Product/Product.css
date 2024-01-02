@@ -1,0 +1,146 @@
+.product {
+    flex: 4;
+    padding: 20px;
+}
+
+.productTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productAddButton {
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    background-color: teal;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+.productInfoContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+}
+.productSalesContainer {
+    flex: 1;
+    width: 100%;
+    height: fit-content;
+}
+.productDetail{
+    flex: 1;
+    height: fit-content;
+    margin: 20px;
+    padding: 35px 30px;
+    -webkit-box-shadow: 10px 7px 20px -6px rgba(0,0,0,0.44); 
+    box-shadow: 10px 7px 20px -6px rgba(0,0,0,0.44);
+}
+.productdiv{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.productdiv img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.info{
+    width: 200px;
+    height: fit-content;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.info span{
+    color: gray;
+    font-size: 16px;
+    font-weight: 500;
+}
+.productStockContainer{
+    -webkit-box-shadow: 10px 7px 20px -6px rgba(0,0,0,0.44); 
+    box-shadow: 10px 7px 20px -6px rgba(0,0,0,0.44);
+    margin: 30px;
+    width: 95%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content:space-between   
+}
+.productName{
+    padding: 20px 30px;
+    height: fit-content;
+}
+.productName h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: gray;
+    margin-bottom: 20px;
+}
+.productName>input{
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    margin-bottom: 10px;
+    color: gray;
+    font-size: 16px;
+}
+.stockoption{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 10px;
+    align-items: center;
+    width: 200px;
+}
+.stockoption select{
+    width: 200px;
+    text-align: center;
+    height: 20px; 
+}
+.stockoption label{
+    margin-top: 10px;
+    font-size: 16px;
+    color: gray;
+}
+.productupload{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 200px;
+    padding: 20px 30px;
+}
+.imgdiv{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.productupload img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.productupload button{
+    height: 40px;
+    width: 170px;
+    border-radius: 20px;
+    color: white;
+    background-color: darkblue;
+    cursor: pointer;
+    font-size: 16px;
+}
+.productupload span{
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}

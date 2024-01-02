@@ -1,0 +1,30 @@
+.productList{
+    flex: 4;
+}
+.productList{
+    flex: 4;
+}
+.productListImg{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.productImage{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.productListButton{
+    padding: 10px 15px;
+    color: white;
+    background-color: #3bb007;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.productListDelButton{
+    color: red;
+    margin-left: 5px;
+    cursor: pointer;
+}

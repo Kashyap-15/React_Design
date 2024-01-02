@@ -1,0 +1,33 @@
+.newProduct{
+    flex: 4;
+}
+.newProductTitle{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.addNewProduct{
+    margin: 30px 0px;
+}
+.addNewProduct input{
+    height: 40px;
+    width: 300px;
+}
+.addNewProductName{
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 5px;
+}
+button{
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    background-color: darkblue;
+}
+input::placeholder{
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 10px;
+}

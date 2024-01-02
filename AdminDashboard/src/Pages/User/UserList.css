@@ -1,0 +1,27 @@
+.userList{
+    flex: 4;
+}
+.userListImg{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.userImage{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.userListButton{
+    padding: 10px 15px;
+    color: white;
+    background-color: #3bb007;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.userListDelButton{
+    color: red;
+    margin-left: 5px;
+    cursor: pointer;
+}
