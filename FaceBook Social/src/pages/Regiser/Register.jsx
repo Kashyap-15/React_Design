@@ -6,8 +6,8 @@ export default function Register() {
     <div className='login'>
         <div className="loginWrapper">
             <div className="loginLeft">
-                <h3 className="loginLogo">LamaSocial</h3>
-                <span className='loginDesc'>Connet With Friends From all Around the World on LamaSocial </span>
+                <h3 className="loginLogo">FaceBook</h3>
+                <span className='loginDesc'>Connet With Friends From all Around the World on FaceBook </span>
             </div>
             <div className="loginRight">
                 <div className="loginBox">
