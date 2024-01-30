@@ -2,6 +2,7 @@ import React from 'react'
 import "./Home.css"
 import Header from '../../Components/Header/Header'
 import HeroSection from '../../Components/HeroSection/HeroSection'
+import GradientHero from '../../Components/GradientHero/GradientHero'
 
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
     <div className='homeContainer'>
         <Header/>
         <HeroSection/>
-        <HeroSection/>
+        <GradientHero/>
     </div>
   )
 }

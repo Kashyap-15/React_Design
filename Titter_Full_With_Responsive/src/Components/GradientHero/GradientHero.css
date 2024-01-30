@@ -1,0 +1,79 @@
+.gradientContainer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.upperGradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(180deg, #040505 5%, rgba(31, 217, 155, 0) 100%);
+    z-index: 1;
+}
+.lowerGradient{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 209px;
+    background: linear-gradient(360deg, #040505 5%, rgba(31, 217, 155, 0) 100%);
+}
+.GradientBackImage{
+    width: 100%;
+    height: 200vh;
+    background-image: url(/MountainHero.png);
+    filter: brightness(15%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* ------------------------------------------------ */
+.upcomingTrekContainer{
+    padding: 10px 120px;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    z-index: 5;
+}
+/* --------------------------------------------------- */
+.activitiesContainer{
+    padding: 10px 120px;
+    width: 100%;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    color: black;
+    background-color: aqua;
+}
+@media (max-width:576px) {
+    .upcomingTrekContainer{
+        padding: 10px 20px;
+    }
+    /* --------------------------------------------------- */
+    .activitiesContainer{
+        padding: 10px 20px;
+    }
+  
+}
+@media (min-width:480px) {
+
+   
+}
+@media (min-width:576px) {
+    
+  
+}
+@media (min-width:786px) {
+   
+  
+}
+@media (min-width:991px) {
+    
+  
+}
+@media (min-width:1200px) {
+   
+}

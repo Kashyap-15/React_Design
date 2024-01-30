@@ -4,6 +4,7 @@ import { ArrowRightAlt } from '@mui/icons-material'
 
 export default function HeroSection() {
   return (
+    <>
     <div className='heroSectionContainer'>
       <div className='heroSectionContent'>
         <span className="heroSectionSubHeading" > | Explore The Beauty Of Our Planet | </span>
@@ -13,5 +14,6 @@ export default function HeroSection() {
         </div >
       </div>
     </div>
+    </>
   )
 }

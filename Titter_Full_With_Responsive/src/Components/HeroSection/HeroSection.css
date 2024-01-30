@@ -122,5 +122,16 @@
   
 }
 @media (min-width:1200px) {
-    
+    .heroSectionSubHeading{
+        font-size: 25px;
+    }
+    .heroSectionHeading{
+        margin-top: 30px;
+        font-size: 50px;
+    }
+    .heroSectionBtn{
+        font-size: 20px;
+        height: 50px;
+        padding: 0px 30px;
+    }  
 }

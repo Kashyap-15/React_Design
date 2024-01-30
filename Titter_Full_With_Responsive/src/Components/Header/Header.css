@@ -1,11 +1,13 @@
 .headerContainer{
     position: fixed;
     width: 100%;
+    /* background-color: #000000; */
     color: white;
     padding: 26px 240px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 1000;
 }
 .TitterLogo{
     width: 132px;
