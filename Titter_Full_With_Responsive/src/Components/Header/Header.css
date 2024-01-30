@@ -1,0 +1,117 @@
+.headerContainer{
+    position: fixed;
+    width: 100%;
+    color: white;
+    padding: 26px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.TitterLogo{
+    width: 132px;
+    height: 50px;
+}
+.navbarDiv{
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+    color: #FFF; 
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.NavDiv:hover{
+    font-weight: 600;
+}
+.NavbarToggleDiv{
+    display: none;
+}
+.HiddenNavbarDiv{
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    right: -18px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+.ToggleDiv{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:576px) {
+    .NavbarToggleDiv{
+        display:flex;
+        position: relative;
+    }
+    .navbarDiv{
+        display: none;
+    }
+    .headerContainer{
+        padding: 26px 20px;
+    }
+    .HiddenNavbarDiv{
+        width: 150px;
+        height: 200px;
+        flex-direction: column;
+        align-items: end;
+        gap: 15px;
+    }
+}
+@media (min-width:576px) {
+    .NavbarToggleDiv{
+        display:flex;
+        position: relative;
+    }
+    .navbarDiv{
+        display: none;
+    }
+    .headerContainer{
+        padding: 26px 20px;
+    }
+    .HiddenNavbarDiv{
+        width: 150px;
+        height: 200px;
+        flex-direction: column;
+        align-items: end;
+        gap: 15px;
+    }
+}
+@media (min-width:786px) {
+    .navbarDiv{
+        display: flex;
+        gap: 50px;
+    }
+    .ToggleDiv{
+        display: none;
+    }
+    .headerContainer{
+        padding: 26px 10px;
+    }
+    .TitterLogo{
+        width: 100px;
+        height: 40px;
+    }
+}
+@media (min-width:991px) {
+    .navbarDiv{
+        display: flex;
+        gap: 64px;
+    }
+    .headerContainer{
+        padding: 26px 40px;
+    }
+    .TitterLogo{
+        width: 132px;
+        height: 50px;
+    }
+}
+@media (min-width:1200px) {
+    .headerContainer{
+        padding: 26px 140px;
+    }
+}
