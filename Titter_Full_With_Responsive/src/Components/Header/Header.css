@@ -1,9 +1,7 @@
 .headerContainer{
     position: fixed;
     width: 100%;
-    /* background-color: #000000; */
-    color: white;
-    padding: 26px 240px;
+    padding: 26px 240px ;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,7 +15,7 @@
     display: flex;
     align-items: flex-start;
     gap: 64px;
-    color: #FFF; 
+    color: #FFF;
     text-align: center;
     font-family: 'Sora', sans-serif;
     font-size: 18px;
@@ -44,6 +42,7 @@
 .ToggleDiv{
     display: flex;
     justify-content: center;
+    color: #FFF;
 }
 @media (max-width:576px) {
     .NavbarToggleDiv{
@@ -54,7 +53,7 @@
         display: none;
     }
     .headerContainer{
-        padding: 26px 20px;
+        padding: 20px 20px;
     }
     .HiddenNavbarDiv{
         width: 150px;
@@ -73,7 +72,7 @@
         display: none;
     }
     .headerContainer{
-        padding: 26px 20px;
+        padding: 20px 20px;
     }
     .HiddenNavbarDiv{
         width: 150px;
@@ -92,7 +91,7 @@
         display: none;
     }
     .headerContainer{
-        padding: 26px 10px;
+        padding: 20px 10px;
     }
     .TitterLogo{
         width: 100px;
@@ -105,7 +104,7 @@
         gap: 64px;
     }
     .headerContainer{
-        padding: 26px 40px;
+        padding: 20px 40px;
     }
     .TitterLogo{
         width: 132px;
@@ -114,6 +113,6 @@
 }
 @media (min-width:1200px) {
     .headerContainer{
-        padding: 26px 140px;
+        padding: 20px 140px;
     }
 }

@@ -68,3 +68,22 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+@media (max-width:360px) {
+    .trekCardHeading{
+        font-size: 20px;
+    }
+    .trekCardDuration,.trekCardDifficulties{
+        font-size: 10px;
+        flex-direction: column;
+    }
+    .trekCardPrice{
+        font-size: 15px;
+    }
+    .trekCardBuyBtn{
+        width: 70px;
+        height: 20px;
+        font-size: 10px;
+    }
+}
+
